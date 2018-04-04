@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    enum TypeMotor
+    public enum TypeMotor
     {
         Gasolina,
         Disel

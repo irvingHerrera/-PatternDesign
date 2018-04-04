@@ -46,6 +46,7 @@
     <Compile Include="IMotorFactory.cs" />
     <Compile Include="MotorDiesel.cs" />
     <Compile Include="MotorDieselFactory.cs" />
+    <Compile Include="MotorFactory.cs" />
     <Compile Include="MotorGasolina.cs" />
     <Compile Include="MotorGasolinaFactory.cs" />
     <Compile Include="Program.cs" />
