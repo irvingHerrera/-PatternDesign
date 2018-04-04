@@ -6,7 +6,7 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Forma 1");
+            Console.WriteLine("Forma 1 simple factory");
             MotorFactory motorFactoryMethod = new MotorFactory();
             var diselMethod = motorFactoryMethod.CreateInstance(TypeMotor.Disel);
             Console.WriteLine(diselMethod.InyectarCombustible(20));
@@ -14,7 +14,7 @@ namespace FactoryMethod
             Console.WriteLine(gasolinaMethod.InyectarCombustible(10));
             Console.ReadKey();
 
-            Console.WriteLine("Forma 2");
+            Console.WriteLine("Forma 2 Factory Method");
             IMotorFactory motorFactory = ObtenerMotor(TypeMotor.Gasolina);
 
             IMotor gasolina = motorFactory.CreateInstance();
